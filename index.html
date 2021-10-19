@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form action="submit.html" method="get">
+        <fieldset>
+            <legend>HTML FORM</legend>
+
+            <label for="name">Name<span class="req">*</span> : </label>
+            <input type="text" name="name" id="" required>
+            <br><br>
+            <label for="email">Email<span class="req">*</span> :</label>
+            <input type="email" name="email" id="" required>
+            <br><br>
+            <label for="Password">Password<span class="req">*</span> : </label>
+            <input type="password" name="Password" id="" required>
+            <br><br>
+            <label for="dob">DOB :</label>
+            <input type="date" name="dob" id="">
+            <br><br>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="other" value="other">Other
+            <br><br>
+            <label for="language">Language : </label> <br>
+            <input type="radio" name="lang" id="" value="react">React <br>
+            <input type="radio" name="lang" id="" value="angular">Angular <br>
+            <input type="radio" name="lang" id="" value="vue">Vue <br>
+            <br><br>
+            <label for="">Select Course : </label>
+            <br>
+            <input type="checkbox" name="Select-Course" id="" value="mean">MEAN
+            <br>
+            <input type="checkbox" name="Select-Course" id="" value="mern">MERN
+            <br>
+            <input type="checkbox" name="Select-Course" id="" value="mevn">MEVN
+            <br> <br>
+            <select name="selector" id="">
+                <option value="FrontEndDeveloper"> Front End Developer </option>
+                <option value="BackEndDeveloper"> Back End Developer </option>
+                <option value="FullStackDeveloper"> Full Stack Developer </option>
+            </select>
+            <br><br>
+            <textarea name="textarea" id="" cols="30" rows="7"></textarea>
+            <br><br>
+            <label for="Phone">Phone No.:</label>
+            <input type="text">
+            <br><br>
+            <button type="submit">submit</button>
+        </fieldset>
+
+        <h2>Tables</h2>
+        <a href="table.html">click here</a>
+    </form>
+
+</body>
+
+</html>
